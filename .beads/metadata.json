@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "server",
+  "dolt_database": "Lifecraft",
+  "project_id": "ab494da4-d197-4853-a8b1-8bd51b88bb31"
+}
