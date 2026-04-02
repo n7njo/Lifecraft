@@ -1,0 +1,24 @@
+  beads-api:
+    host: truenas
+    source:
+      type: git
+      url: https://github.com/n7njo/Lifecraft-beads-api.git
+      branch: main
+    build:
+      dockerfile: Dockerfile
+      platform: linux/amd64
+      context: .
+    deploy:
+      image_name: beads-api
+      container_name: beads-api-app
+      host_port: 30217
+      container_port: 3000
+    health:
+      protocol: http
+      endpoint: /health
+    env:
+      DB_HOST: 192.168.1.86
+      DB_PORT: '30216'
+      DB_USER: root
+      DB_PASSWORD: lifecraft_beads
+      DB_NAME: Lifecraft

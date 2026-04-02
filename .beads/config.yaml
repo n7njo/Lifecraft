@@ -52,3 +52,8 @@
 # - linear.api-key
 # - github.org
 # - github.repo
+
+dolt.host: 192.168.1.86
+dolt.port: 30216
+dolt.user: root
+dolt.database: Lifecraft

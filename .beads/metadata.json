@@ -2,6 +2,8 @@
   "database": "dolt",
   "backend": "dolt",
   "dolt_mode": "server",
+  "dolt_server_host": "192.168.1.86",
+  "dolt_server_port": 30216,
   "dolt_database": "Lifecraft",
   "project_id": "ab494da4-d197-4853-a8b1-8bd51b88bb31"
 }
