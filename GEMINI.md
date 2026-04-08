@@ -1,10 +1,10 @@
-# Lifecraft Studios — Parent Company Planning
+# Well Engineered Life — Parent Company Planning
 
-This project acts as the "Umbrella" repository for all Lifecraft Studios ventures. It houses business planning, legal research, and internal documentation.
+This project acts as the "Umbrella" repository for all **Well Engineered Life** ventures. It houses business planning, legal research, and internal documentation.
 
 ## Beads Infrastructure (Remote Dolt)
 
-Lifecraft uses **Beads** (`bd` CLI) for structured task tracking. To enable cross-device collaboration between the husband-and-wife team, the database is hosted remotely on **HomePilot (TrueNAS)**.
+The initiative uses **Beads** (`bd` CLI) for structured task tracking. To enable cross-device collaboration between the founders, the database is hosted remotely on **HomePilot (TrueNAS)**.
 
 ### **Connection Settings**
 - **Host:** `192.168.1.86` (truenas.local)
