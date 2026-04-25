@@ -1,6 +1,6 @@
-# Well Engineered Life — Parent Company Planning
+# Openshaw Project Services — Parent Company Planning
 
-This project acts as the "Umbrella" repository for all **Well Engineered Life** ventures. It houses business planning, legal research, and internal documentation.
+This project acts as the "Umbrella" repository for all **Openshaw Project Services** ventures. It houses business planning, legal research, and internal documentation.
 
 ## Beads Infrastructure (Remote Dolt)
 
@@ -41,6 +41,17 @@ The internal documentation is built with **Docusaurus** and served via HomePilot
    ```bash
    homepilot deploy lifecraft-docs
    ```
+
+## Governance & Record Keeping
+
+Legal and corporate records are maintained in `/internal-docs/docs/governance`. These files are formatted for professional export:
+
+1. **[Articles of Incorporation](/docs/governance/articles-of-incorporation)** — Full legal text (Table 1).
+2. **[Transparency Register](/docs/governance/transparency-register)** — Record of Significant Individuals.
+3. **[Central Securities Register](/docs/governance/central-securities-register)** — Record of share ownership.
+4. **[Incorporation Agreement](/docs/governance/incorporation-agreement)** — Legal agreement to form the company.
+
+**PDF Export:** Every governance page includes a "Professional PDF" button for generating clean, unbranded copies for physical minute books.
 
 ## Key Business Epics
 1. **Lifecraft-dkk:** Company Registration & Structure
